@@ -1,6 +1,24 @@
 .sensor {
+    border-radius: 10px;
+    float:left;
+    
+}
+
+#pH {
+    border:6px solid black;
+}
+
+#temperature {
+    border:6px solid blue;
+}
+
+#humidity {
     border:6px solid red;
-    border-radius: 25px;
+}
+
+.sensor > img {
+    width: 128px;
+    height: 128px;
 }
 
 .sensor > .data {
